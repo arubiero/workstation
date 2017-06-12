@@ -5,6 +5,7 @@ yum_repository "epel"do
 end
 
 package "tree"
+
 package "cowsay"
 
 file "/etc/motd" do
